@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Poker Hand</title>
+        <!-- https://unsplash.com/photos/QSIq9ncQkzY Background-->
+        <style>
+            body {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                background-image: url('images/grass.jpg');
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                margin: 250px;
+            }
+            .text{
+                font-size: 80px;
+                color: rgba(255, 255, 255, 0.705);
+                text-shadow: 4px 4px 20px rgb(7, 182, 30);
+                position: absolute;
+                top: 20px;
+                left: 430px;
+            }
+            .cards{
+                position: absolute;
+                top: 240px;
+                left: 275px;
+            }
+            .table{
+                z-index: 9;
+                width: 1600px;
+                padding-left: 50px;
+            }
+            .ans {
+                display: flex;
+                flex-wrap: nowrap;
+                color: rgba(255, 255, 255, 0.705);
+                text-shadow: 4px 4px 20px rgb(30, 44, 32);
+                position: absolute;
+                font-size: 50px; 
+                left: 600px;
+                bottom: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text">
+            <p>Welcome to Matt's Casino</p>
+        </div>
+        <div class="cards">
+            <img id="image0" src=""/> 
+            <img id="image1" src=""/> 
+            <img id="image2" src=""/> 
+            <img id="image3" src=""/> 
+            <img id="image4" src=""/> 
+        </div>
+        <div>
+            <img class="table" src="images/table.png"> 
+            <!--https://www.nicepng.com/downpng/u2w7q8o0a9a9u2q8_poker-table-png-poker-table-online/-->
+        </div>
+        <div class="ans"> 
+            <p>BEST HAND:&nbsp;&nbsp;</p>
+            <p id="highHand"></p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
