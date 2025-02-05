@@ -1,4 +1,4 @@
-# 🃏 My JavaScript Practice Project: JavaScript_Examples! 🚀
+# 🃏 JavaScript Practice Project: JavaScript_Examples! 🚀
 
 During my JavaScript course, I worked on several small exercises to sharpen my coding skills, including a fun and challenging poker hand evaluator that determines the winning hand from an API-rendered poker game.
 
