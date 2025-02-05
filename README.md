@@ -3,6 +3,7 @@
 During my JavaScript course, I worked on several small exercises to sharpen my coding skills, including a fun and challenging poker hand evaluator that determines the winning hand from an API-rendered poker game.
 
 Key Features:
+
 ✔️ Poker Hand Evaluator – Uses JavaScript logic to analyze and determine the best poker hand from API-generated data.
 
 ✔️ API Integration – Fetches and processes poker hands dynamically.
